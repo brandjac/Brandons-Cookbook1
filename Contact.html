@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Brandon's Cook Book</title>
+</head>
+<body class="index">
+    <h1>Contact me and share your thoughts about my recipes's. Or better yet,submit your own recipe to me.Please fill out the contact form below.
+I hope to hear from you soon.</h1></br>
+    <header>
+    <nav>
+        <ul class= "nav">
+            <li><a href="index.html">About</a></li>
+            <li><a href="RecipeList.html">Entrees</a></li>
+            <li><a href="Desserts.html">Desserts</a></li>
+            <li><a href= "Gallery.html"> Gallery</a></li>
+            <li><a class="current" href="Contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="Contact">
+    <grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none;" class="grammer"></grammarly-extension>
+    <form action="https://formspree.io/f/mnqogazq" method="POST">
+    
+    <fieldset>
+        <label for="name_id">Your Name</label><br>
+        <input type="text" placeholder="Enter Your Name" id="name_id" name="name" required="">
+        <br><label for="email_id">Your Email</label></br>
+        <input type="email" placeholder="Enter Your Email" id="email_id" name="email" required="">
+        <br><label for="msg" id="label">Recipe</label></br>
+        <textarea placeholder="Enter Recipe Here" id="msg" name="mesg" required=""></textarea></br>
+        <input type="submit" value="Submit">
+    </fieldset>
+    </form>
+</div>
